@@ -1,6 +1,7 @@
+#include "print.h"
 #include <stdio.h>
+
 int main(void) {
-    printf("Доронина Дарья Юрьевна\n"
-           "ВИ921Б\n");
+    print_fio();
     return 0;
 }
